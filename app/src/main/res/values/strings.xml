@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">synthesisFirebase</string>
+    <string name="idReq">이메일을 입력해주세요.</string>
+    <string name="pwReq">패스워드를 입력해주세요.</string>
+    <string name="btnLogin">로그인</string>
+    <string name="btnRegistration">회원가입</string>
+</resources>
