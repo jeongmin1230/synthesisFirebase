@@ -17,12 +17,12 @@ class ListAdapter(val itemList: ArrayList<ListLayout>): RecyclerView.Adapter<Lis
     }
 
     override fun onBindViewHolder(holder: ListAdapter.ViewHolder, position: Int) {
-        holder.name.text = itemList[position].todo
-        holder.number.text = itemList[position].deadline
+        holder.thing.text = itemList[position].thing
+        holder.needCount.text = itemList[position].needCount
     }
 
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        val name: TextView = itemView.findViewById(R.id.tvInputTodo)
-        val number: TextView = itemView.findViewById(R.id.tvInputDeadline)
+        val thing: TextView = itemView.findViewById(R.id.tvInputThing)
+        val needCount: TextView = itemView.findViewById(R.id.tvInputNeedCount)
     }
 }

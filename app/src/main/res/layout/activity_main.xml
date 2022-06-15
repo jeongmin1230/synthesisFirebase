@@ -39,13 +39,9 @@
                 android:onClick="onClickAdd" />
         </LinearLayout>
 
-    <EditText
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:hint="할 일을 입력하세요."
-        android:id="@+id/etAddThings"
-        android:textAlignment="center" />
+        android:layout_height="match_parent" />
 
-</LinearLayout>
+    </LinearLayout>

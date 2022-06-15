@@ -1,3 +1,3 @@
 package com.example.synthesisfirebase
 
-class ListLayout (val todo: String, val deadline: String)
+class ListLayout (val thing: String, val needCount: String)
